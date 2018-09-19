@@ -23,9 +23,9 @@ public class App {
  
     static {
         //host = Optional.ofNullable(System.getenv("HOSTNAME"));
-        host = "129.144.148.87";
+        host = Optional.ofNullable("129.144.148.87");
         //port = Optional.ofNullable(System.getenv("PORT"));
-        port = "3000";
+        port = Optional.ofNullable("3000");
     }
  
     /**
