@@ -1,4 +1,4 @@
-/* Copyright © 2016 Oracle and/or its affiliates. All rights reserved. */
+/* Copyright Â© 2016 Oracle and/or its affiliates. All rights reserved. */
 package com.example.rest;
  
 import java.util.Optional;
@@ -23,7 +23,9 @@ public class App {
  
     static {
         host = Optional.ofNullable(System.getenv("HOSTNAME"));
+        host = "129.144.148.87";
         port = Optional.ofNullable(System.getenv("PORT"));
+        port = "3000";
     }
  
     /**
