@@ -52,7 +52,7 @@ public class App {
     private static void runGetRequest() {
  
     	// sample URL
-        String url = "http://ip.jsontest.com/";
+        String url = "http://129.144.148.87";
         CloseableHttpResponse response = null;
  
         try {
