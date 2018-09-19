@@ -22,9 +22,9 @@ public class App {
     public static final Properties myProps = new Properties();
  
     static {
-        host = Optional.ofNullable(System.getenv("HOSTNAME"));
+        //host = Optional.ofNullable(System.getenv("HOSTNAME"));
         host = "129.144.148.87";
-        port = Optional.ofNullable(System.getenv("PORT"));
+        //port = Optional.ofNullable(System.getenv("PORT"));
         port = "3000";
     }
  
